@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-image: url("portnew.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+    
+}
+nav ul{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    
+
+}
+.container li{
+    
+    display: inline;
+    float: right;
+    margin: 20px;
+    margin-top: -50px;
+    font-size: 20px;
+    color:white;
+    font-style: italic;
+    cursor: pointer;
+    transition: transform 0.3s;
+
+    
+} 
+.container li:hover{
+    transform: scale(1.09);
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 110px;
+
+
+}
+h1{
+    font: bold;
+    font-family: 'Dancing Script', cursive;
+    padding:15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+
+
+}
+
+
+
+
+footer{
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    height: 80px;
+}
+footer div i{
+    color: #ffffff;
+}
+footer div i:hover{
+    color: #8e8c8c;
+}
+
+.down li{
+    display: inline;
+    float: right;
+    margin: 20px;
+    margin-top: -10px;
+    font-size: 20px;
+    color:white;
+    font-style: italic;
+    cursor: pointer;
+    
+}
+.down a {
+    float: right;
+    margin-right:  30px;
+    cursor: pointer;
+
+}
+img{
+    height: 50px;
+    width: 30%;
+    margin-top: 30px;
+}

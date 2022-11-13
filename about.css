@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Lato:ital@0;1&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:rgb(44, 42, 42) ;
+    
+}
+nav ul{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    
+
+}
+.container1 li{
+    display:inline;
+    float: right;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin: 25px;
+    margin-top: -10px;
+}
+.container1 li:hover{
+    transform: scale(1.09);
+
+}
+header{
+    background-color: black;
+    width: 100%;
+    
+}
+h1{
+    font: bold;
+    text-align: center;
+    color: white;
+
+}
+img{
+    height: 90%;
+    width: 35%;
+}
+div.g{
+    display: flex;
+
+}
+div.text{
+    margin-top: 5%;
+    margin-left: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+p{
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Permanent Marker', cursive;
+color: white;
+}
+#id4{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'ABeeZee', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Permanent Marker', cursive;
+color: grey;
+    
+}
+#id3{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Permanent Marker', cursive;
+
+}
